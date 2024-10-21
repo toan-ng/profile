@@ -1,0 +1,40 @@
+[
+  {
+    "id": 2,
+    "code": "s4prj",
+    "name": "Student Project SEM 4: FS Airlines",
+    "range": "Jun 2023 - Jul 2023",
+    "description": "Project simulates an online ticket booking and check-in web app. Passengers can book and check in for family's or ones' individual purpose.",
+    "roles": [
+      "Analysis and design the database structure",
+      "Build the homepage, check in, seatmap layouts, the form and process for booking ticket",
+      "Arrange tasks to team members, set time duration for each phrase of the project"
+    ],
+    "techStack": {
+      "backend": " Java Spring Boot integrated with Azure B2C for Sign-up, sign-in tasks",
+      "frontend": "React: Material-Ui, Html-Css-Javascript",
+      "database": "MSSQL"
+    },
+    "srcCode": "https://github.com/mindullness/s4prj-docker",
+    "imgUrl": "https://github.com/mindullness/s4prj-docker/blob/main/readme/image.png?raw=true"
+  },
+  {
+    "id": 1,
+    "code": "s3prj",
+    "name": "Student Project SEM 3: RaCE Car Insurance",
+    "range": "Dec 2022 - Jan 2023",
+    "description": "Project simultates to manages purchasing insurance, making claims, retrieving estimates and maintaining certificates",
+    "roles": [
+      "Analysis and design the database structure",
+      "Get/Retrieve an estimate, Purchase certificate features",
+      "Maintain certificates feature"
+    ],
+    "techStack": {
+      "backend": "ASP.NET Core 6, NuGet Package: MS.EntityFrameworkCore/ Design/ SqlServer",
+      "frontend": "Html-Css-Javascript, NuGet Package: Client-Bootstrap",
+      "database": "MSSQL"
+    },
+    "srcCode": "https://github.com/ngan-ng/eProject-VehicleInsurancePortal",
+    "imgUrl": "https://github.com/mindullness/Homework-assignment/blob/main/HCJS/s3prj.png?raw=true"
+  }
+]

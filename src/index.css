@@ -1,0 +1,394 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 1rem;
+  background-color: #eeeeee;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+#main {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*************************
+  Header
+**************************/
+header {
+  background-color: "#EEEEEE" !important;
+  z-index: 5;
+}
+
+.my-name,
+.sub-my-name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #76abae;
+}
+.sub-my-name {
+  font-size: 1.6rem;
+  text-decoration-line: underline;
+  text-decoration-color: #fedd65;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 3px;
+}
+
+header > ul > li > a {
+  font-size: 1em;
+  text-wrap: nowrap;
+  color: #222831;
+  flex-basis: 150px;
+  flex-shrink: 0;
+}
+
+.src-code {
+  text-decoration: none;
+}
+
+#outter-header {
+  display: block;
+  position: fixed;
+  height: auto;
+  z-index: 10;
+  background-color: #eeeeee;
+}
+
+#expand-header {
+  display: block;
+}
+
+#shrink-header {
+  display: none;
+}
+
+#shrink-header > header {
+  background-color: #76abae;
+  padding: 5px 0px 10px 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+/* Whenever screen drop down below 1230px, change to shrink navbar header */
+@media only screen and (max-width: 1230px) {
+  #expand-header {
+    display: none;
+  }
+  #shrink-header {
+    display: block;
+  }
+  header > ul > li > a {
+    color: #eee !important;
+  }
+  .techstack {
+    width: 100% !important;
+  }
+}
+/* End Header */
+
+/*************************
+  Hover-Header-Link and About
+**************************/
+.about-tech-category > a,
+.course-completion,
+.course-title {
+  text-decoration: none;
+  color: #222831;
+  text-decoration-line: none;
+}
+
+header > ul > li > a:hover,
+.src-code:hover,
+.about-tech-category > a:hover,
+.course-completion:hover,
+.course-title:hover {
+  color: #222831;
+  text-decoration-line: underline;
+  text-decoration-color: #fedd65;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 3px;
+}
+
+/*************************
+  Resume and Porfolio
+**************************/
+.vertical-left-border {
+  border-left: 5px solid #fedd65;
+}
+
+#porfolio > div > p,
+#resume > div > p {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 0px 5px;
+  background-color: #fedd65;
+}
+
+.card-container {
+  min-width: 420px;
+  min-height: 320px;
+  background-color: #eeeeee;
+}
+
+/* project-image */
+img.project-image {
+  max-width: 96%;
+  height: auto;
+  object-fit: fill;
+  border-radius: 4px;
+  opacity: 0.8;
+  transform: scale(0.93);
+  transition: opacity 0.2s ease-in-out, transform 0.4s;
+  box-shadow: none !important;
+  display: block !important;
+}
+
+img.project-image:hover {
+  transform: scale(1);
+  opacity: 1;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 3px 4px 8px #b4b4b4 !important;
+  cursor: pointer;
+}
+
+.experience-content .linkLine {
+  height: 1px;
+  background-color: grey;
+  margin: 0 10px !important;
+  opacity: 0.6;
+}
+
+.experience-content span.time-duration {
+  flex-basis: 140px !important;
+}
+
+/*************************
+  Contact
+**************************/
+#contact {
+  color: #332941;
+  background-color: #ffd751;
+  margin-top: 50px;
+}
+
+#contact-bg-image {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1566837945700-30057527ade0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  min-height: 480px;
+}
+
+/* Hire-Me Button */
+#hire-me-btn {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  /*name-duration-function(ease,eas-in,linear)-delay-count-direction */
+  animation: kreep 0.7s ease 2s infinite alternate;
+  color: #332941 !important;
+}
+
+/*Bounce*/
+@keyframes kreep {
+  0% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  50% {
+    -webkit-transform: scale(0.9, 1.1) translateY(-0.5rem);
+  }
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+footer {
+  color: #eeeeee;
+  background-color: #332941;
+  height: 120px !important;
+}
+
+footer a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #eeeeee;
+  text-decoration-line: underline;
+  text-decoration-color: #fedd65;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 3px;
+}
+
+/*************************
+  Others
+**************************/
+ul > li > a > img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Buttons */
+/* header-menu-btn */
+#header-menu-btn {
+  color: #76abae !important;
+  border-color: #76abae;
+  border: 1px solit #76abae;
+}
+#header-menu-btn:hover {
+  background-color: #76abae;
+  color: #eee !important;
+  border-color: #eee !important;
+}
+
+/* Scroll up button */
+#scroll-up-btn {
+  padding: 8px;
+  height: 40px;
+  border: #3b3486;
+  background-color: #3b3486ab;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 100px;
+  right: 8%;
+  cursor: pointer;
+}
+#scroll-up-btn:hover {
+  background-color: #864af9;
+}
+
+/*************************
+  Mobile Modification
+**************************/
+.experience-field {
+  border-left: 5px solid #fedd65;
+  border-radius: 25%;
+}
+
+.resume-course,
+.experience-field,
+.underlying-layers {
+  min-width: 420px;
+}
+
+.underlying-layers > div {
+  width: 100%;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.underlying-layers > div:first-child {
+  top: 3px;
+  left: 3px;
+  z-index: -5;
+}
+.underlying-layers > div:last-child {
+  top: 8px;
+  left: 6px;
+  z-index: -6;
+}
+.techstack {
+  width: 75%;
+}
+
+.techstack-icon {
+  display: flex;
+  justify-content: end;
+}
+@media only screen and (max-width: 720px) {
+  .about-tech-category {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .techstack-icon {
+    padding: 5px 0 0 0;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  #root {
+    display: block;
+    margin: 0 auto;
+  }
+
+  section:not(.container-fluid) {
+    min-width: 300px;
+  }
+
+  #outter-header {
+    position: fixed;
+    bottom: 0;
+  }
+  #main {
+    top: 40px;
+  }
+
+  .experience-content > div:nth-child(2) {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .experience-content > div:nth-child(2) > span.time-duration {
+    align-self: flex-start !important;
+    flex-basis: 0px !important;
+  }
+  #contact {
+    position: relative;
+    bottom: 73px;
+  }
+  #scroll-up-btn {
+    bottom: 60px;
+    z-index: 99;
+  }
+  body {
+    font-size: 0.92rem;
+    background-color: #eeeeee;
+    font-weight: 600;
+  }
+
+  #outter-header > div,
+  #main {
+    width: 83% !important;
+  }
+
+  .vertical-left-border {
+    padding-bottom: 0px !important;
+  }
+
+  .resume-course,
+  .experience-field,
+  .card-container,
+  .underlying-layers {
+    min-width: 300px !important;
+    font-size: 0.86rem;
+  }
+  .experience-content {
+    font-size: 0.9rem;
+  }
+
+  #contact > div:nth-child(2) {
+    width: 75% !important;
+  }
+
+  footer {
+    justify-content: space-between !important;
+  }
+  footer > div:last-child {
+    text-align: end !important;
+  }
+}

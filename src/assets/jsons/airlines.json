@@ -1,0 +1,26 @@
+[
+  {
+    "id": 3,
+    "code": "ua",
+    "name": "United Airlines",
+    "srcImg": "https://upload.wikimedia.org/wikipedia/vi/e/e0/United_Airlines_Logo.svg"
+  },
+  {
+    "id": 4,
+    "code": "ak",
+    "name": "Air Asia",
+    "srcImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/AirAsia_New_Logo_%282020%29.svg/1200px-AirAsia_New_Logo_%282020%29.svg.png"
+  },
+  {
+    "id": 2,
+    "code": "tw",
+    "name": "T❜Way Air",
+    "srcImg": "https://upload.wikimedia.org/wikipedia/commons/f/f0/T%27way_Air_logo.svg"
+  },
+  {
+    "id": 1,
+    "code": "vj",
+    "name": "Vietjet Air",
+    "srcImg": "https://upload.wikimedia.org/wikipedia/commons/1/19/VietJet_Air_logo.svg"
+  }
+]

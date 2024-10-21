@@ -1,0 +1,79 @@
+[
+  {
+    "id": 7,
+    "title": "Back End Development and APIs (Node-Express-Mongo)",
+    "batchOrInstructor": "Freecodecamp.org",
+    "institution": "Freecodecamp",
+    "range": "April 2024",
+    "imgUrl": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg",
+    "courseUrl": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+    "institutionUrl": "https://www.freecodecamp.org/",
+    "completeUrl": "https://www.freecodecamp.org/certification/mindullness/back-end-development-and-apis"
+  },
+  {
+    "id": 6,
+    "title": "The DAO Adventure",
+    "batchOrInstructor": "Sébastien Thuillier",
+    "institution": "Motoko Bootcamp",
+    "range": "February 2024",
+    "imgUrl": "https://avatars.githubusercontent.com/u/99317204?s=200&v=4",
+    "courseUrl": "https://nnri3-7qaaa-aaaaj-qa3qa-cai.icp0.io/",
+    "institutionUrl": "https://www.motokobootcamp.com/",
+    "completeUrl": "#"
+  },
+  {
+    "id": 5,
+    "title": "Java Data Structures & Algorithms + LEETCODE Exercises",
+    "batchOrInstructor": "Scott Barrett",
+    "institution": "Udemy",
+    "range": "December 2023",
+    "imgUrl": "https://w7.pngwing.com/pngs/306/302/png-transparent-udemy-hd-logo.png",
+    "courseUrl": "https://www.udemy.com/share/105D0W3@Dp6GHAHh-Y4-wCbICa7QLSYrM9oXISquxOfGgHP_fBXNm0n0QYU_moUqddo8UFvDkg==/",
+    "institutionUrl": "https://www.udemy.com/",
+    "completeUrl": "https://www.udemy.com/certificate/UC-12832359-87f4-4df4-bba6-f034de19af51/"
+  },
+  {
+    "id": 4,
+    "title": "Java Multithreading, Concurrency & Performance Optimization",
+    "batchOrInstructor": "Scott Barrett",
+    "institution": "Udemy",
+    "range": "Septemper 2023",
+    "imgUrl": "https://w7.pngwing.com/pngs/306/302/png-transparent-udemy-hd-logo.png",
+    "courseUrl": "https://www.udemy.com/share/101XDO3@armG1u1mT8BJD7_eMnb2UvTs3Xl2SLP_P00SnlkE6LWmkr6Re0DLAhP6bXYbvqUFaQ==/",
+    "institutionUrl": "https://www.udemy.com/",
+    "completeUrl": "https://www.udemy.com/certificate/UC-1b4ff94b-fbf6-49d5-bc9f-99ca8fb8bcea/"
+  },
+  {
+    "id": 3,
+    "title": "Advanced Diploma In Software Engineering (ADSE)",
+    "batchOrInstructor": "T1.2109.E0",
+    "institution": "FPT Aptech Academy",
+    "range": "Sep 2021 - Aug 2023",
+    "imgUrl": "https://aptech.fpt.edu.vn/wp-content/uploads/2022/03/image001-8.jpg",
+    "courseUrl": "https://aptech.fpt.edu.vn/chuong-trinh-adse-2-nam",
+    "institutionUrl": "https://aptech.fpt.edu.vn/",
+    "completeUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRl76Vs4aq1IHCJ8DPOoQui1PLAU6EngIs2atslDmRcS5GSc5TDie0Dfor0aNLxlQ/pubhtml"
+  },
+  {
+    "id": 2,
+    "title": "Managing an Agile Team",
+    "batchOrInstructor": "Alex Cowan",
+    "institution": "Coursera",
+    "range": "November 2022",
+    "imgUrl": "https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png",
+    "courseUrl": "https://www.udemy.com/share/101XDO3@armG1u1mT8BJD7_eMnb2UvTs3Xl2SLP_P00SnlkE6LWmkr6Re0DLAhP6bXYbvqUFaQ==/",
+    "institutionUrl": "https://www.coursera.org/",
+    "completeUrl": "https://www.coursera.org/account/accomplishments/verify/C2QDLHYLUB72"
+  },
+  {
+    "id": 1,
+    "title": "Responsive Web Design",
+    "batchOrInstructor": "Quincy Larson",
+    "institution": "Freecodecamp",
+    "range": "December 2021",
+    "imgUrl": "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg",
+    "courseUrl": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "institutionUrl": "https://www.freecodecamp.org/",
+    "completeUrl": "https://www.freecodecamp.org/certification/mindullness/responsive-web-design"
+  }
+]
