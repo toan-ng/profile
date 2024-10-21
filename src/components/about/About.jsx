@@ -11,7 +11,7 @@ const About = () => {
           <p style={{ textWrap: "nowrap" }}>A software engineer currently working at <a className='my-name' style={{ textDecorationLine: "none" }} href="https://www.skiplinow.com/"
             target="_blank" rel="noopener noreferrer">Skipli.</a></p>
           <p> I'm dedicating to to learn new things, new better ways to develop clean, efficient, scalable, and reusable code as well as being a problem solver to grow and enhance my technical abilities especially in Spring frameworks, microservices design pattern, etc.</p>
-          <p><i style={{color: "orange", fontSize: 24}} className="fa fa-lightbulb-o"></i> I look forward to the opportunity to contribute and grow in the TymeX Internship Program 2024!</p>
+          <p><i style={{color: "orange", fontSize: 24}} className="fa fa-lightbulb-o"></i> I look forward to the opportunity to contribute and grow in the <b>TymeX</b> Internship Program 2024!</p>
         </div>
         <div className='col-md-5 align-self-center text-center d-flex justify-content-center'>
           <YOE yoe={0} />
