@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mindullness.github.io/resume",
+  "homepage": "https://toan-ng.github.io/profile",
   "dependencies": {
     "gh-pages": "^6.1.1",
     "js-confetti": "^0.12.0",
