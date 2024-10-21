@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.56285dd6.css",
+    "main.js": "/profile/static/js/main.79ee0c6b.js",
+    "static/media/s3prj.png": "/profile/static/media/s3prj.e3b86a4e46b41a171225.png",
+    "static/media/shhh.png": "/profile/static/media/shhh.f371172f1814c73dd10f.png",
+    "static/media/discord-mark-blue.png": "/profile/static/media/discord-mark-blue.667df059ddf407979d68.png",
+    "index.html": "/profile/index.html",
+    "main.56285dd6.css.map": "/profile/static/css/main.56285dd6.css.map",
+    "main.79ee0c6b.js.map": "/profile/static/js/main.79ee0c6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56285dd6.css",
+    "static/js/main.79ee0c6b.js"
+  ]
+}
