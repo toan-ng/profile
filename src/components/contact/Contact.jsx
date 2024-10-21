@@ -50,7 +50,7 @@ const Contact = memo(() => {
       <footer
         className="p-5 container-fluid d-flex justify-content-around">
         <div><a href='#'>Toan Nguyen</a></div>
-        <div><a href='#'>Fresher Fullstack Web Developer</a></div>
+        <div><a href='#'>Software Engineer</a></div>
       </footer>
     </div>
   );
