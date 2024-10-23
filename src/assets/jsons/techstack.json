@@ -1,28 +1,6 @@
 [
   {
     "id": 1,
-    "category": "Frontend",
-    "technologies": [
-      "ReactJS",
-      "NextJS",
-      "Material UI",
-      "Bootstrap",
-      "Html",
-      "Css",
-      "Javascript"
-    ],
-    "icons": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
-      "https://images.ctfassets.net/23aumh6u8s0i/6pjUKboBuFLvCKkE3esaFA/5f2101d6d2add5c615db5e98a553fc44/nextjs.jpeg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Logo_material_design.svg/512px-Logo_material_design.svg.png?20200304070251",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png?20210507000024",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/512px-HTML5_Badge.svg.png?20110131171049",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Devicon-css3-plain.svg/512px-Devicon-css3-plain.svg.png",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/640px-Unofficial_JavaScript_logo_2.svg.png"
-    ]
-  },
-  {
-    "id": 2,
     "category": "Backend",
     "technologies": [
       "NodeJs",
@@ -46,11 +24,33 @@
     ]
   },
   {
+    "id": 2,
+    "category": "Frontend",
+    "technologies": [
+      "ReactJS",
+      "NextJS",
+      "Material UI",
+      "Bootstrap",
+      "Html",
+      "Css",
+      "Javascript"
+    ],
+    "icons": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "https://images.ctfassets.net/23aumh6u8s0i/6pjUKboBuFLvCKkE3esaFA/5f2101d6d2add5c615db5e98a553fc44/nextjs.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Logo_material_design.svg/512px-Logo_material_design.svg.png?20200304070251",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png?20210507000024",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/512px-HTML5_Badge.svg.png?20110131171049",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Devicon-css3-plain.svg/512px-Devicon-css3-plain.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/640px-Unofficial_JavaScript_logo_2.svg.png"
+    ]
+  },
+  {
     "id": 3,
     "category": "Platform-Software",
     "technologies": [
       "Docker",
-      "Git",
+      "Git/Github",
       "VS Code",
       "IntelliJ IDEA",
       "Windows",
@@ -59,6 +59,7 @@
     "icons": [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Docker-svgrepo-com.svg/600px-Docker-svgrepo-com.svg.png?20230427111848",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
+      "https://banner2.cleanpng.com/20240213/gpl/transparent-group-of-people-group-of-people-wearing-hats-and-scarves-holding-1710879275232.webp",
       "https://e7.pngegg.com/pngimages/100/690/png-clipart-visual-studio-code-microsoft-visual-studio-source-code-text-editor-microsoft-blue-angle-thumbnail.png",
       "https://static-00.iconduck.com/assets.00/intellij-idea-icon-512x506-3kksf9dh.png",
       "https://upload.wikimedia.org/wikipedia/commons/3/34/Windows_logo_-_2012_derivative.svg",
@@ -70,11 +71,16 @@
     "category": "Cloud-Services",
     "technologies": [
       "Firebase: Cloud Functions, Firestore, Storage",
-      "AWS S3 Storage Bucket"
+      "AWS S3 Storage Bucket",
+      "AWS Identity and Access Management (IAM)",
+      "Heroku"
     ],
     "icons": [
+      "https://symbols.getvecta.com/stencil_3/12_firebase-cloud-function.8a5db37c76.png",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
-      "https://symbols.getvecta.com/stencil_3/12_firebase-cloud-function.8a5db37c76.png"
+      "https://www.logicata.com/wp-content/uploads/2020/01/Amazon-Simple-Storage-Service-S3_Bucket-with-Objects_light-bg@4x.png",
+      "https://cloud-icons.onemodel.app/aws/Architecture-Service-Icons_01312023/Arch_Security-Identity-Compliance/64/Arch_AWS-IAM-Identity-Center_64@5x.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR63LJtOxUqyREa-LBYVomkUDL2J3cUK9MJNA&s"
     ]
   }
 ]

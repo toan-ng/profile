@@ -4,7 +4,7 @@ import ClickableArrow from '../buttons/ClickableArrow';
 const Stack = memo((props) => {
   const stack = props.stack;
   const collapseId = `collapseId_${stack.category}`;
-  const [isActive, setActive] = useState(stack.category === "Frontend");
+  const [isActive, setActive] = useState(stack.category === "Backend");
 
   return (
     <>
@@ -35,7 +35,7 @@ const Stack = memo((props) => {
         </div>
       </div>
       {/* Technologies */}
-      <div className={`${stack.category === "Frontend" ? "show" : ""} collapse w-75`} id={collapseId}>
+      <div className={`${stack.category === "Backend" ? "show" : ""} collapse w-75`} id={collapseId}>
         <div className="bg-transparent border-bottom mb-3">
           <ul className='row container float-left'>
             {stack.technologies.map((tech, index) => (
