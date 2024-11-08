@@ -73,6 +73,7 @@
       "Firebase: Cloud Functions, Firestore, Storage",
       "AWS S3 Storage Bucket",
       "AWS Identity and Access Management (IAM)",
+      "AWS Rekognition",
       "Heroku"
     ],
     "icons": [
@@ -80,6 +81,7 @@
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png",
       "https://www.logicata.com/wp-content/uploads/2020/01/Amazon-Simple-Storage-Service-S3_Bucket-with-Objects_light-bg@4x.png",
       "https://cloud-icons.onemodel.app/aws/Architecture-Service-Icons_01312023/Arch_Security-Identity-Compliance/64/Arch_AWS-IAM-Identity-Center_64@5x.png",
+      "https://www.pngitem.com/pimgs/m/710-7102743_aws-rekognition-icon-png-download-transparent-png.png",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR63LJtOxUqyREa-LBYVomkUDL2J3cUK9MJNA&s"
     ]
   }
