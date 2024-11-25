@@ -16,7 +16,7 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "dev": "npm run start -p 3000",
+    "dev": "npm run start -p 3001",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

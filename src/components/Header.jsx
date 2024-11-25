@@ -8,7 +8,7 @@ const Header = memo(() => {
     return (
       <div id='shrink-header' className=''>
         <div className='d-flex justify-content-between align-items-center border-top border-bottom py-3'>
-          <span className='my-name text-uppercase' style={{ textWrap: 'nowrap' }}>Toan Nguyen</span>
+          <a href='https://dev.toann.casa' rel='noopener noreferer' target='_blank' className='my-name text-uppercase' style={{ textWrap: 'nowrap' }}>Toan Nguyen</a>
           <button id='header-menu-btn' className="navbar-toggler"
             data-bs-toggle="collapse"
             data-bs-target="#bs-extending-header"
@@ -22,9 +22,9 @@ const Header = memo(() => {
         </div>
         <header className="navbar-collapse collapse text-start" id="bs-extending-header">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className='nav-item'><a href='#' className="nav-link px-2 link-dark" rel='noreferrer'>ABOUT</a></li>
-            <li className='nav-item'><a href='#resume' className="nav-link px-2 link-dark" rel='noreferrer'>RESUME</a></li>
-            <li className='nav-item'><a href='#porfolio' className="nav-link px-2 link-dark" rel='noreferrer'>PORFOLIO</a></li>
+            <li className='nav-item'><a href='https://dev.toann.casa' target='_blank' rel='noopener noreferer' className="nav-link px-2 link-dark" >ABOUT</a></li>
+            <li className='nav-item'><a href='https://dev.toann.casa' target='_blank' rel='noopener noreferer' className="nav-link px-2 link-dark" >RESUME</a></li>
+            <li className='nav-item'><a href='https://dev.toann.casa' target='_blank' rel='noopener noreferer' className="nav-link px-2 link-dark" >PORFOLIO</a></li>
             <li className='nav-item'><a href='#contact' className="nav-link px-2 link-dark" rel='noreferrer'>CONTACT</a></li>
           </ul>
           <ul className="nav gap-4 d-flex flex-nowrap justify-content-start ps-1 my-1">
@@ -43,9 +43,9 @@ const Header = memo(() => {
             <span className='my-name text-uppercase' style={{ textWrap: 'nowrap' }}>Toan Nguyen</span>
           </div>
           <ul className="nav ml-3 col-auto mb-2 justify-content-evenly mb-md-0 align-self-center text-end">
-            <li><a href='#' className="nav-link px-2 link-dark" >ABOUT</a></li>
-            <li><a href='#resume' className="nav-link px-2 link-dark">RESUME</a></li>
-            <li><a href='#porfolio' className="nav-link px-2 link-dark">PORFOLIO</a></li>
+            <li><a href='https://dev.toann.casa' target='_blank' rel='noopener noreferer' className="nav-link px-2 link-dark" >ABOUT</a></li>
+            <li><a href='https://dev.toann.casa' target='_blank' rel='noopener noreferer' className="nav-link px-2 link-dark">RESUME</a></li>
+            <li><a href='https://dev.toann.casa' target='_blank' rel='noopener noreferer' className="nav-link px-2 link-dark">PORFOLIO</a></li>
             <li><a href='#contact' className="nav-link px-2 link-dark">CONTACT</a></li>
           </ul>
           <div className="nav gap-4 col-md-3 d-flex flex-nowrap justify-content-end">
